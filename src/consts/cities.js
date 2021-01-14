@@ -1,5 +1,5 @@
 export const cities = [
-  <select id="1" name="city">
+  <select defaultValue="İstanbul" id="1" name="city">
     <option value="Adana">Adana</option>
     <option value="Adıyaman">Adıyaman</option>
     <option value="Afyonkarahisar">Afyonkarahisar</option>
@@ -33,9 +33,7 @@ export const cities = [
     <option value="Hatay">Hatay</option>
     <option value="Isparta">Isparta</option>
     <option value="Mersin">Mersin</option>
-    <option selected value="İstanbul">
-      İstanbul
-    </option>
+    <option value="İstanbul">İstanbul</option>
     <option value="İzmir">İzmir</option>
     <option value="Kars">Kars</option>
     <option value="Kastamonu">Kastamonu</option>
