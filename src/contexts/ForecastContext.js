@@ -3,7 +3,7 @@ import { useState, createContext } from "react";
 export const ForecastContext = createContext();
 
 export const ForecastProvider = ({ children }) => {
-  const [cityName, setCityName] = useState("İstanbul");
+  const [cityName, setCityName] = useState("istanbul");
   const [results, setResults] = useState([
     {
       temp: null,
