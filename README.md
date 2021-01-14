@@ -2,10 +2,10 @@
 
 This App developed with Context API and React
 
-[ozan-orkun-weather-app.netlify.app] (Live Demo)
+[Live Demo](ozan-orkun-weather-app.netlify.app)
 
 ozan-orkun-weather-app.netlify.app
 
-[www.weatherbit.io] (WEATHERBIT API)  is used for weather data.
+[WEATHERBIT API](www.weatherbit.io)  is used for weather data.
 
-![weather-app] (/image/weather-app.png)
+![weather-app](/image/weather-app.png)
