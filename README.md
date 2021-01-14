@@ -2,7 +2,7 @@
 
 This App developed with Context API and React
 
-[Live Demo](ozan-orkun-weather-app.netlify.app)
+[Live Demo](https://ozan-orkun-weather-app.netlify.app)
 
 ozan-orkun-weather-app.netlify.app
 
