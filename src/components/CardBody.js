@@ -12,9 +12,9 @@ function CardBody() {
     });
   }, [cityName, setResults]);
   return (
-    <div class="container d-flex justify-content-center">
-      <div class="col-lg-9 grid-margin stretch-card">
-        <div class="card card-weather">
+    <div className="container d-flex justify-content-center">
+      <div className="col-lg-9 grid-margin stretch-card">
+        <div className="card card-weather">
           <Current></Current>
           <Weekly></Weekly>
         </div>

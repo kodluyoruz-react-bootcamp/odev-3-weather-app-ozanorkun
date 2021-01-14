@@ -8,8 +8,8 @@ import { ForecastProvider } from "./contexts/ForecastContext";
 function App() {
   return (
     <>
-      <div class="padding">
-        <div class="row">
+      <div className="padding">
+        <div className="row">
           <ForecastProvider>
             <Dropdown />
             <CardBody />

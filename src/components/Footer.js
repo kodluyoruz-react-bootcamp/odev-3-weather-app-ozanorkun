@@ -1,7 +1,7 @@
 function Footer() {
   return (
-    <div class="row">
-      <div class="container d-flex justify-content-center">
+    <div className="row">
+      <div className="container d-flex justify-content-center">
         <a href="https://www.github.com/ozanorkun">Ozan ORKUN </a> @ 2021
       </div>
     </div>

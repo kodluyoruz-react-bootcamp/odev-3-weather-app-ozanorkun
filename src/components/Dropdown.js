@@ -10,9 +10,9 @@ function Dropdown() {
   };
 
   return (
-    <div class="container d-flex justify-content-center">
+    <div className="container d-flex justify-content-center">
       <h5>Listeden İl Seçiniz: </h5>
-      <form class="form" type="submit" onChange={changeHandler}>
+      <form name="cityname" type="submit" onChange={changeHandler}>
         {cities}
       </form>
       <br />
