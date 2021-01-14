@@ -6,6 +6,7 @@ export const ForecastProvider = ({ children }) => {
   const [cityName, setCityName] = useState("İstanbul");
   const [results, setResults] = useState([
     {
+      temp: null,
       maxTemp: null,
       minTemp: null,
       dayShort: null,
@@ -14,6 +15,7 @@ export const ForecastProvider = ({ children }) => {
       month: null,
       year: null,
       iconCode: null,
+      description: null,
     },
   ]);
 

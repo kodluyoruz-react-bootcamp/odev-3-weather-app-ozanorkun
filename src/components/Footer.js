@@ -3,7 +3,7 @@ function Footer() {
     <>
       <div class="row">
         <div class="container d-flex justify-content-center">
-          Ozan ORKUN @ 2021
+          <a href="https://www.github.com/ozanorkun">Ozan ORKUN </a> @ 2021
         </div>
       </div>
     </>

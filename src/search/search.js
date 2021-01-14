@@ -42,14 +42,16 @@ export const search = async (cityName) => {
       const year = d.getFullYear();
 
       return {
-        maxTemp: dailyForecast.app_max_temp,
-        minTemp: dailyForecast.app_min_temp,
+        temp: dailyForecast.temp,
+        maxTemp: dailyForecast.max_temp,
+        minTemp: dailyForecast.min_temp,
         dayShort: dayShort,
         dayLong: dayLong,
         date: date,
         month: month,
         year: year,
         iconCode: dailyForecast.weather.icon,
+        description: dailyForecast.weather.description,
       };
     });
     return dailyForecastList;

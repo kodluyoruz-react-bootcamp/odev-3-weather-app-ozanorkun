@@ -8,11 +8,22 @@ function Day() {
     return (
       <div class="weakly-weather-item">
         <p class="mb-0">{result.dayShort}</p>
-        <i class="mdi mdi-weather-cloudy"></i>
+        <img
+          src={`https://www.weatherbit.io/static/img/icons/${result.iconCode}.png`}
+          alt=""
+          width="45"
+          height="40"
+        />
         <p class="mb-0">
-          <span>Maks: {result.maxTemp}</span>
+          <span>
+            Maks: {result.maxTemp}
+            <span class="symbol">°</span>C
+          </span>
           <br />
-          <span>Min: {result.minTemp}</span>
+          <span>
+            Min: {result.minTemp}
+            <span class="symbol">°</span>C
+          </span>
         </p>
       </div>
     );

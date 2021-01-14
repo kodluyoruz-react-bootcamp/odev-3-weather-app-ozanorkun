@@ -17,9 +17,18 @@ function Current() {
       <div class="weather-data d-flex">
         <div class="mr-auto">
           <h4 class="display-3">
-            {results[0].maxTemp} <span class="symbol">°</span>C
+            Sıcaklık: {results[0].temp} <span class="symbol">°</span>C
           </h4>
-          <p>{results[0].maxTemp}</p>
+          <h5>{results[0].description}</h5>
+          <br />
+          <h6>
+            En Yüksek Sıcaklık: {results[0].maxTemp}{" "}
+            <span class="symbol">°</span>C
+          </h6>
+          <h6>
+            En Düşük Sıcaklık: {results[0].minTemp}{" "}
+            <span class="symbol">°</span>C
+          </h6>
         </div>
       </div>
     </div>
